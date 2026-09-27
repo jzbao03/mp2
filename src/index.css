@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #30343a; background: #fafafa; }
+h1 { margin-bottom: 0; font-size: 30px; }
+header > p { margin-top: 4px; color: #626870; }
+a { color: #28577b; }
+main { padding: 12px 0 32px; min-height: 50vh; }
+input, select, button { font: inherit; }
+input[type='search'], select { padding: 7px 10px; border: 1px solid #9daab5; border-radius: 3px; background: white; min-width: 0; }
+button { padding: 5px 12px; border: 1px solid #9daab5; border-radius: 3px; background: white; color: #28577b; cursor: pointer; }
+button:hover { background: #e5edf2; }
+:focus-visible { outline: 3px solid #c47717; outline-offset: 3px; }
+footer { border-top: 1px solid #ccc; padding-top: 18px; font-size: 14px; color: #626870; }
